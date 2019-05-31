@@ -5,25 +5,19 @@
 
 ## **Description**
 
-Dengue is a considerable public health problem in tropical and sub-tropical area. 
-It is transmitted primarily *Aedes* mosquitoes. 
-There are four distinct serotype of DENV, but serologically close to each other. 
-An infection from any single serotype of DENV provides a life-long immunity to that serotype, and a short-term cross protection to other three serotypes. 
+Water, sanitation, and hygiene (WASH) interventions (e.g., hand washing with soap and the use of clean water) are promoted to prevent and control transmission pahtyways of diarrheal disease-causing pathogens.
 
-This project provides spatially explicit agent-based models (ABMs) of Dengue Virus (DENV) transmission. In the model, individual human and infectious mosquito agents interact each other in the spatially explicit environment. 
-
-![Spatially Explicit ABMs of DENV Transmission](./Figures/ScreenShot.png)
+This project provides agent-based models (ABMs) of WASH interventions. In the model, individual human interacts each other in the community.  
 
 ## **Model Objectives**
 
 This model has been developed to perform Monte Carlo Simulation and sensitivity analysis. 
 The simulations are executed by varying four input parameters embedded in the model 
-(i.e., the level of herd immunity, introduction rate, the number of mosquitoes, and mosquito extrinsic incubation period).
+(i.e., the proportion of households with a Drinking Water intervention, a Sanitation interventation, and a Hand Washing Intervention).
 
-* The level of herd immunity: the probability of exposure to DENV prior to a start of simulation (high, medium, and low)
-* Introduction rate: the rate of infection from outside (1.0*e-6 - 1.0*e-5)
-* the number of mosquitoes: the number of mosquitoes per a building (10 - 50)
-* mosquito extrinsic incubation period: the date that mosquitoes become infectious (9 - 12)
+* The proportion of households with a Driking Water intervention: U = [0.1 to 1.0 with increments of 0.1 with equal probability of selection]
+* The proportion of households with a Sanitation intervention: U = [0.1 to 1.0 with increments of 0.1 with equal proability of selection]
+* The proportion of households with a Hand Washing intervention: U = [0.1 to 1.0 with increments of 0.1 with equal probability of selection]
 
 ## **Instruction**
 
